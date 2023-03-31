@@ -13,7 +13,7 @@ export default function Header({ scrollHandler }) {
       />
       <p className={styles.description}>The Succulent Shop</p>
       <h1 className={styles.title}>
-        You can't buy happiness, but you can buy even more succulents and that's
+        You can&apos;t buy happiness, but you can buy even more succulents and that&apos;s
         pretty much the same thing.
       </h1>
       <button className={styles.btn} onClick={scrollHandler}>

@@ -32,7 +32,7 @@ export default function Home({ allProductsData }) {
       </Head>
       <Header scrollHandler={scrollHandler} />
       <main className={styles.main} ref={scollToRef}>
-        <h1 className={styles.mainTitle}>Let's find your prefect succulent</h1>
+        <h1 className={styles.mainTitle}>Let&apos;s find your prefect succulent</h1>
         <ul className={styles.products}>
           {allProductsData &&
             allProductsData.map((product) => (
