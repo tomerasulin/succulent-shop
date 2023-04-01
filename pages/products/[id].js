@@ -33,13 +33,23 @@ export default function Products({ productData }) {
           sizes='100vh'
         />
         <div className={productStyles.productDetails}>
-          <h3>{productData.name}</h3>
-          <p>{productData.price}</p>
-          <p className={productStyles.productDescription}>{productData.description}</p>
+          <h3 className={productStyles.productDescription}>
+            {productData.name}
+          </h3>
+          <p className={productStyles.productDescription}>
+            {' '}
+            {productData.price}
+          </p>
+          <hr />
+          <p className={productStyles.productDescription}>
+            {productData.description}
+          </p>
         </div>
       </main>
       <div className={productStyles.backToHome}>
-        <Link href='/' className={productStyles.backText}>← Back to home</Link>
+        <Link href='/' className={productStyles.backText}>
+          ← Back to home
+        </Link>
       </div>
       <Footer />
     </>
